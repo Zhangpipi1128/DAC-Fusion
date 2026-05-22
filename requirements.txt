@@ -13,7 +13,7 @@ scipy>=1.7.0
 sentence-transformers>=2.2.0
 
 # Notes:
-# - BM25 is implemented in kaggle.py (BM25OkapiLite); rank-bm25 is NOT required.
+# - BM25 is implemented in kaggle.py (BM25OkapiLite).
 # - SCRUBD data: clone via kaggle_notebook_cell1.py, not pip.
 # - LLM rerank (RUN_LLM_RERANK_BASELINE=1): needs extra GPU memory; uses transformers only.
 # - Kaggle notebooks often pre-install torch/transformers; local users should use CUDA-enabled torch if available.
