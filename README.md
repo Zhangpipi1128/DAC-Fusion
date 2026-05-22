@@ -32,7 +32,7 @@ Random seeds: 42, 123, 456, 789, 2026. Please cite the original SCRUBD paper whe
 
 
 # Main results (5-seed mean ± std)
-From output/per_seed_results.jsonl. (matches the paper, Table 2)
+From reproduce/per_seed_results.jsonl. (matches the paper, Table 2)
 
 
 # Installation
