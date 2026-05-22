@@ -45,12 +45,12 @@ pip install -r requirements.txt
 
 # Reproduction
 **Kaggle (Recommended)**
--Run kaggle_notebook_cell1.py to clone SCRUBD and set environment.
--Run kaggle.py with:
+1. Run kaggle_notebook_cell1.py to clone SCRUBD and set environment.
+2. Run kaggle.py with:
       QUICK_RUN=0
       VULN_IR_FULL_PAPER_RUN=1
       Results will be saved to /kaggle/working/output.
--Outputs: VULN_IR_OUT/per_seed_results.jsonl and per-seed CSVs (default on Kaggle: /kaggle/working/output).
+3. Outputs: VULN_IR_OUT/per_seed_results.jsonl and per-seed CSVs (default on Kaggle: /kaggle/working/output).
 
 
 # Citation
