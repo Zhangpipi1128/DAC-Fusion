@@ -32,7 +32,7 @@ Random seeds: 42, 123, 456, 789, 2026. Please cite the original SCRUBD paper whe
 
 
 # Main results (5-seed mean ± std)
-From reproduce/per_seed_results.jsonl. (matches the paper, Table 2)
+From output/per_seed_results.jsonl. (matches the paper, Table 2)
 
 
 # Installation
@@ -47,10 +47,10 @@ pip install -r requirements.txt
 **Kaggle (Recommended)**
 1. Run kaggle_notebook_cell1.py to clone SCRUBD and set environment.
 2. Run kaggle.py with:
-      - QUICK_RUN=0
-      - VULN_IR_FULL_PAPER_RUN=1
-      - Results will be saved to /kaggle/working/output.
-3. Outputs: VULN_IR_OUT/per_seed_results.jsonl and per-seed CSVs (default on Kaggle: /kaggle/working/output).
+   - QUICK_RUN=0
+   - VULN_IR_FULL_PAPER_RUN=1
+   - Results will be saved to /kaggle/working/output.
+3. Outputs: per_seed_results.jsonl and per-seed CSVs.
 
 
 # Citation
